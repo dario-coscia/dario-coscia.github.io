@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: dario-coscia.github.io/sitemap.xml
+Sitemap: https://dario-coscia.github.io/sitemap.xml
