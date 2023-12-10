@@ -200,7 +200,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ['_pages/about.md', '_pages/cv.md', '_pages/publications.md']
 exclude:
   - bin
   - Gemfile
@@ -272,8 +272,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Coscia]
+  first_name: [Dario]
 
   style: apa
   locale: en
