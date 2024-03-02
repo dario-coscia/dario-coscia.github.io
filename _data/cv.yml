@@ -1,0 +1,88 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Dario Coscia
+    - name: Date of Birth
+      value: 2nd September 1999
+    - name: Languages
+      value: Italian, English, Spanish
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: International School of Advanced Studies (SISSA), Italy - University of Amsterdam, The Netherlands
+      year: 2023 - *
+      description:
+        - Generative Modelling for Uncertainty Quantification
+        - Neural Operator, Physics Informed learning for solving PDEs
+
+    - title: Master's degree Data Science and Scientific Computing
+      institution: University of Trieste, Italy
+      year: 2021 - 2023
+      description:
+        - Thesis on generative adversarial methods for reduced order modelling
+
+    - title: Bachelor's degree Physics
+      institution: University of Trieste, Italy
+      year: 2018 - 2021
+      description:
+        - Thesis on modelling the energetics of graphene on a Nickel surface
+
+    - title: United World College of South East Asia
+      institution: Singapore, Singapore
+      year: 2016 - 2018
+      description:
+        - International Baccalaureate (English language)
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Machine learning researcher
+      institution: International School of Advanced Studies (SISSA), Italy
+      year: 2021 - 2023
+      description:
+        - Research fellow at SISSA mathLab group in the field of Deep Learning.
+
+    - title: Solid state physics researcher
+      institution: CNR-IOM, Italy
+      year: 2020 - 2021
+      description:
+        - Internship at CNR-IOM Trieste in the field of computational solid-state physics. Building
+          statistical and energetical models, and developing software for testing.
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/mathLab/PINA">PINA</a>
+      year: 2015-now
+      description: An open-source Python library for solving differential equations using Deep Learning.
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
