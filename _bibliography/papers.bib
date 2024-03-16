@@ -17,27 +17,28 @@
 
 
 @article{coscia2023generative,
-	abbr        = {Nature Sci. Rep.},
-	bibtex_show = {true},
-        html        = {https://www.nature.com/articles/s41598-024-54067-z},
-	abstract = {In this work, we present GAROM, a new approach for reduced order modeling (ROM) based on generative adversarial networks (GANs). GANs attempt to learn to generate data with the same statistics of the underlying distribution of a dataset, using two neural networks, namely discriminator and generator. While widely applied in many areas of deep learning, little research is done on their application for ROM, i.e. approximating a high-fidelity model with a simpler one. In this work, we combine the GAN and ROM framework, introducing a data-driven generative adversarial model able to learn solutions to parametric differential equations. In the presented methodology, the discriminator is modeled as an autoencoder, extracting relevant features of the input, and a conditioning mechanism is applied to the generator and discriminator networks specifying the differential equation parameters. We show how to apply our methodology for inference, provide experimental evidence of the model generalization, and perform a convergence study of the method.},
-	author = {Coscia, Dario and Demo, Nicola and Rozza, Gianluigi},
-	da = {2024/02/15},
-	date-added = {2024-02-19 10:48:01 +0100},
-	date-modified = {2024-02-19 10:48:45 +0100},
-	doi = {10.1038/s41598-024-54067-z},
-	id = {Coscia2024},
-	isbn = {2045-2322},
-	journal = {Scientific Reports},
-	number = {1},
-	pages = {3826},
-	rating = {5},
-	read = {1},
-	title = {Generative adversarial reduced order modelling},
-	ty = {JOUR},
-	url = {https://doi.org/10.1038/s41598-024-54067-z},
-	volume = {14},
-	year = {2024}}
+  abbr          = {Nature Sci. Rep.},
+  bibtex_show   = {true},
+  html          = {https://www.nature.com/articles/s41598-024-54067-z},
+  abstract      = {In this work, we present GAROM, a new approach for reduced order modeling (ROM) based on generative adversarial networks (GANs). GANs attempt to learn to generate data with the same statistics of the underlying distribution of a dataset, using two neural networks, namely discriminator and generator. While widely applied in many areas of deep learning, little research is done on their application for ROM, i.e. approximating a high-fidelity model with a simpler one. In this work, we combine the GAN and ROM framework, introducing a data-driven generative adversarial model able to learn solutions to parametric differential equations. In the presented methodology, the discriminator is modeled as an autoencoder, extracting relevant features of the input, and a conditioning mechanism is applied to the generator and discriminator networks specifying the differential equation parameters. We show how to apply our methodology for inference, provide experimental evidence of the model generalization, and perform a convergence study of the method.},
+  author        = {Coscia, Dario and Demo, Nicola and Rozza, Gianluigi},
+  da            = {2024/02/15},
+  date-added    = {2024-02-19 10:48:01 +0100},
+  date-modified = {2024-02-19 10:48:45 +0100},
+  doi           = {10.1038/s41598-024-54067-z},
+  id            = {Coscia2024},
+  isbn          = {2045-2322},
+  journal       = {Scientific Reports},
+  number        = {1},
+  pages         = {3826},
+  rating        = {5},
+  read          = {1},
+  title         = {Generative adversarial reduced order modelling},
+  ty            = {JOUR},
+  url           = {https://doi.org/10.1038/s41598-024-54067-z},
+  volume        = {14},
+  year          = {2024}
+}
 
 @article{coscia2023physics,
   title       = {Physics-Informed Neural networks for Advanced modeling},
@@ -51,4 +52,13 @@
   bibtex_show = {true},
   abstract    = {PINA is an open-source Python library providing an intuitive interface for solving differential equations using PINNs, NOs or both together. Based on PyTorch and PyTorchLightning, PINA offers a simple and intuitive way to formalize a specific (differential) problem and solve it using neural networks . The approximated solution of a differential equation can be implemented using PINA in a few lines of code thanks to the intuitive and user-friendly interface.},
   html        = {https://joss.theoj.org/papers/10.21105/joss.05352}
+}
+
+@inproceedings{coscia2023pina,
+  title     = {{PINA}: a PyTorch Framework for Solving Differential Equations by Deep Learning for Research and Production Environments},
+  author    = {Coscia, Dario and Demo, Nicola and Rozza, Gianluigi},
+  booktitle = {ICLR 2024 Workshop on AI4DifferentialEquations In Science},
+  year      = {2024},
+  html      = {https://openreview.net/forum?id=9HSPRDSkwU},
+  abstract  = {We present a versatile software designed for solving differential equations employing neural networks. The package is called PINA, an open-source Python library built upon the robust foundations of PyTorch and Lightning. It allows end-users to formulate their problem and craft their models to effortlessly compute solutions of PDEs by Physics Informed Neural Networks and Neural Operators. The modular structure of PINA permits it to adapt for user specifics, thus offering the freedom to select the most suitable learning techniques for their particular problem domain. Furthermore, by leveraging the capabilities of the Lightning package, PINA adapts to various hardware setups, including GPUs and TPUs. This adaptability positions PINA as an ideal candidate for the transition of these methodologies into production and industrial pipelines, where computational efficiency and scalability are of paramount importance.}
 }
