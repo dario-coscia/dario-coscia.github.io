@@ -63,3 +63,13 @@
   abbr      = {ICLR},
   abstract  = {We present a versatile software designed for solving differential equations employing neural networks. The package is called PINA, an open-source Python library built upon the robust foundations of PyTorch and Lightning. It allows end-users to formulate their problem and craft their models to effortlessly compute solutions of PDEs by Physics Informed Neural Networks and Neural Operators. The modular structure of PINA permits it to adapt for user specifics, thus offering the freedom to select the most suitable learning techniques for their particular problem domain. Furthermore, by leveraging the capabilities of the Lightning package, PINA adapts to various hardware setups, including GPUs and TPUs. This adaptability positions PINA as an ideal candidate for the transition of these methodologies into production and industrial pipelines, where computational efficiency and scalability are of paramount importance.}
 }
+
+@inproceedings{coscia2023pina,
+  title     = {BARNN: A Bayesian Autoregressive and Recurrent Neural Network},
+  author    = {Coscia, Dario and Welling, Max and Demo, Nicola and Rozza, Gianluigi},
+  booktitle = {International Conference on Machine Learning},
+  year      = {2025},
+  html      = {https://openreview.net/forum?id=9HSPRDSkwU},
+  abbr      = {ICML},
+  abstract  = {Autoregressive and recurrent networks have achieved remarkable progress across various fields, from weather forecasting to molecular generation and Large Language Models. Despite their strong predictive capabilities, these models lack a rigorous framework for addressing uncertainty, which is key in scientific applications such as PDE solving, molecular generation and machine l earning Force Fields. To address this shortcoming we present BARNN: a variational Bayesian Autoregressive and Recurrent Neural Network. BARNNs aim to provide a principled way to turn any autoregressive or recurrent model into its Bayesian version. BARNN is based on the variational dropout method, allowing to apply it to large recurrent neural networks as well. We also introduce a temporal version of the “Variational Mixtures of Posteriors” prior (tVAMP-prior) to make Bayesian inference efficient and well-calibrated. Extensive experiments on PDE modelling and molecular generation demonstrate that BARNN not only achieves comparable or superior accuracy compared to existing methods, but also excels in uncertainty quantification and modelling long-range dependencies.}
+}
